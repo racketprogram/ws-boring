@@ -1,3 +1,6 @@
+* 安裝 deno
+https://deno.land/manual/getting_started/installation  
+
 * 開 server 
 ```shell
 make server
