@@ -24,7 +24,7 @@ ws.on("open", async () => {
     const sendMessage = {
       event: BoringEvent.Send,
       receiverID: receiverID,
-      message: `${message} from id: ${id}`,
+      message: `${message} from id: ${myID}`,
     };
     ws.send(JSON.stringify(sendMessage));
   }
